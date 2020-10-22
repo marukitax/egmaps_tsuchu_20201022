@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
+
+	<title>津山中学校マップ</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+	<script src="./egmap.js"></script>
+	<link rel="stylesheet" href="./egmap.css"/>
+	<script>"use strict"
+
+		window.onload = function() {
+			var map = initMap('mapid')
+			map.setZoom(16)
+			map.panTo([ 35.061166,133.998223 ]) // ワードシステム
+
+			map.addIcon(35.061166,133.998223,"<a href='http://www.wordsystem.co.jp'target='_blank'>ワードシステム</a><br>住所：津山市鍛治町３７,<br>電話：0868231820","icon/building.png")map.addIcon(35.061166,133.998223,"<a href='http://www.wordsystem.co.jp'target='_blank'>ワードシステム</a><br>住所：津山市鍛治町３７,<br>電話：0868231820","icon/building.png")map.addIcon(35.061166,133.998223,"<a href='http://www.wordsystem.co.jp'target='_blank'>ワードシステム</a><br>住所：津山市鍛治町３７,<br>電話：0868231820","icon/building.png")
+		}
+
+	</script>
+	<style>
+		body { margin: 0; font-family: sans-serif; text-align: center; }
+		h1 { font-size: 5vw; margin: 0; }
+		#mapid { height: 80vh; }
+	</style>
+</head>
+<body>
+
+	<h1>津山中学校マップ</h1>
+	<div id="mapid"></div>
+
+</body>
+</html>
