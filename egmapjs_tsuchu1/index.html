@@ -13,10 +13,19 @@
 
 		window.onload = function() {
 			var map = initMap('mapid')
-			map.setZoom(16)
-			map.panTo([ 35.061166,133.998223 ]) // ワードシステム
+			map.setZoom(11)
+			map.panTo([ 35.06742561,134.0012299 ]) //津山中学校
+			
+			map.addIcon(35.06742561,134.0012299,"<a href='http://www.tuyama-jsh.okayama-c.ed.jp/'target='_blank'>                  津山中学校      </a><br>住所：津山市椿高下62,      <br>電話：0868223331","icon/building.png")
+			map.addIcon(35.0662752, 134.0377817,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320002'target='_blank'>津山東中学校    </a><br>住所：津山市押入1110,      <br>電話：0868261419","icon/building.png")
+			map.addIcon(35.08586393,134.0210262,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320003'target='_blank'>津山中道中学校  </a><br>住所：津山市勝部355,       <br>電話：0868236782","icon/building.png")
+			map.addIcon(35.08697246,134.0093648,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320004'target='_blank'>津山市北陵中学校</a><br>住所：津山市大田160,       <br>電話：0868270322","icon/building.png")
+			map.addIcon(35.07192004,133.9998022,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320005'target='_blank'>津山市鶴山中学校</a><br>住所：津山市山北290,       <br>電話：0868228231","icon/building.png")
+			map.addIcon(35.06263872,133.9724814,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320006'target='_blank'>津山西中学校    </a><br>住所：津山市二宮1256-1,    <br>電話：0868280141","icon/building.png")
+			map.addIcon(35.17472382,134.0572915,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320007'target='_blank'>津山市加茂中学校</a><br>住所：津山市加茂町桑原280, <br>電話：0868423032","icon/building.png")
+			map.addIcon(35.10001088,134.1058628,"<a href='https://www.city.tsuyama.lg.jp/life/index2.php?id=1669'  target='_blank'>津山市勝北中学校</a><br>住所：津山市原371,         <br>電話：0868365419","icon/building.png")
+			map.addIcon(35.05523616,133.8967428,"<a href='http://www11.schoolweb.ne.jp/weblog/index.php?id=3320009'target='_blank'>津山市久米中学校</a><br>住所：津山市南方中1487-1,  <br>電話：0868572340","icon/building.png")
 
-			map.addIcon(35.061166,133.998223,"<a href='http://www.wordsystem.co.jp' target='_blank'>ワードシステム</a><br>住所：津山市鍛治町３７,<br>電話：0868231820","icon/building.png")
 		}
 
 	</script>
@@ -30,6 +39,6 @@
 
 	<h1>津山中学校マップ</h1>
 	<div id="mapid"></div>
-
+<p>Y.Z.</p>
 </body>
 </html>
